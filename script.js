@@ -78,3 +78,19 @@ gsap.from(".link p",
 )
 
 
+//sidebar navbar
+
+let menu=document.querySelector(".menu i");
+
+menu.addEventListener("click",()=>{
+    let navbar=document.querySelector(".navbar");
+navbar.style.display="flex";
+
+})
+
+let cross=document.querySelector(".menuu i");
+cross.addEventListener("click",()=>{
+    let navbar=document.querySelector(".navbar");
+navbar.style.display="none";
+
+})
