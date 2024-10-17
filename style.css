@@ -166,6 +166,11 @@ font-family: "Roboto", sans-serif;
 .main{
     width:100%;
 }
+
+.phone-page1{
+    display: none;
+}
+
 .page1{
 
 height:80vh;
@@ -1751,6 +1756,56 @@ width: 100%;
     .search .i2{
         display: none;
      }
+
+        .page1{
+            display:none;
+        }
+
+        .phone-page1{
+            height:60vh;
+            width:100%;
+            background-color: aqua;
+       
+
+           
+background-color:white;
+display: flex;
+justify-content: center;
+align-items: center;
+overflow-x: hidden;
+        }
+    
+        .phone-slider{
+
+            height:60vh;
+            width:95%;
+            background-color: azure;
+           position: relative;
+            overflow: hidden;
+        
+        }
+        
+        .phone-first ,.phone-second,.phone-third{
+        
+            height:60vh;
+            width:100%;
+            position: absolute;
+           
+        
+        }
+        .phone-slide img{
+        
+            height:60vh;
+            width: 100%;
+        
+        
+        }
+        
+        .phone-page1 .phone-prv,.phone-next{
+            height:20px;
+            margin:20px;
+            font-size: 30px;
+        }
         
            
            
