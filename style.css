@@ -1782,6 +1782,7 @@ overflow-x: hidden;
             background-color: azure;
            position: relative;
             overflow: hidden;
+            border: white;
         
         }
         
@@ -1797,14 +1798,15 @@ overflow-x: hidden;
         
             height:60vh;
             width: 100%;
+            border: white;
         
         
         }
         
         .phone-page1 .phone-prv,.phone-next{
-            height:20px;
-            margin:20px;
-            font-size: 29px;
+            height:10px;
+            margin:10px;
+            font-size: 15px;
         }
         
            

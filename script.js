@@ -94,3 +94,60 @@ cross.addEventListener("click",()=>{
 navbar.style.display="none";
 
 })
+
+
+
+
+let phoneslide=document.querySelectorAll(".phone-slide");
+
+for(let i=0;i<phoneslide.length;++i)
+{
+    phoneslide[i].style.left=`${i*100}%`;
+}
+
+let counterr=0;
+
+const slideimagee=()=>{
+
+    for(let i=0;i<phoneslide.length;++i)
+        {
+            phoneslide[i].style.transform=`translateX(-${counterr*100}%)`;
+        }
+
+}
+
+let phoneprv=document.querySelector(".phone-prv");
+phoneprv.addEventListener('click',()=>{
+
+counterr--;
+if(counterr==-1)
+{
+    counterr=phoneslide.length-1;
+    for(let i=0;i<phoneslide.length;++i)
+        {
+            phoneslide[i].style.transform=`translateX(-${counterr*100}%)`;
+        }
+}
+slideimagee();
+console.log("hello")
+
+})
+
+let phonenext=document.querySelector(".phone-next");
+phonenext.addEventListener('click',()=>{
+
+counterr++;
+
+if(counterr==phoneslide.length)
+{
+    counterr=0;
+    for(let i=0;i<phoneslide.length;++i)
+        {
+            phoneslide[i].style.transform=`translateX(-${counterr*100}%)`;
+        }
+}
+
+slideimagee();
+
+
+})
