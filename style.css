@@ -1715,7 +1715,244 @@ width: 100%;
 }
 
 
-@media screen and (max-width:426px) and (min-width:0px)
+@media screen and (max-width:660px) and (min-width:580px)
+{
+
+    .menu{
+        display: none;
+    }
+
+    .move div{
+    
+        width: 60%;
+        flex-shrink: 0;
+        background-color:black;
+        color: white;
+        
+    }
+
+    .link div{
+
+        width:90%;
+     }
+
+     .page1{
+
+        height:40vh;
+          }
+        .slider{
+        
+            height:40vh;
+            }
+        
+        .first ,.second,.third{
+        
+            height:40vh; }
+        .slide img{
+            height:40vh;
+        
+        }
+        
+           
+            .link div i{
+                font-size: 10px;
+                margin-left: 4px;
+                
+            } .link div p{
+                font-size: 12px;
+            }
+
+
+            .page3{
+                height:70vh;
+                
+            }
+            
+    
+            .page3 .contain{
+    
+                height:50vh;
+                width:95%;
+              
+            }
+            .contain .text {
+                height:50vh;
+               
+            }
+            .contain .heding{
+                margin-top: 20px;
+            }
+            .contain .text .heding h1{
+                
+                font-family:"Roboto", sans-serif ;
+            margin-right: 30%;
+                font-size: 20px;
+                font-weight: 900;
+            
+            }
+            
+            .contain .text p{
+                font-family:"Roboto", sans-serif ;
+                font-size: 12px;
+               
+            }
+            .contain .text button{
+                width:150px;
+                    padding: 10px;
+                    background-color: rgba(0, 0, 0, 0.806);
+                    color: white;
+                    font-size: 10px;
+                    font-weight: bold;
+                }
+            
+            .contain .image{
+                height:50vh;
+              
+               
+            }
+            .contain .image img{
+              
+                height:50vh;
+            }
+
+            .page4{
+                height:100vh;
+               
+            }
+            .page4 .contain{
+            
+                height:100vh;
+                width:95%;
+               
+               
+            
+            }
+            .page4 .contain .men{
+                height:100vh;
+               
+            }
+            .page4 .contain .men img{
+                height:80vh;
+                
+            }
+            .page4 .contain .men .blure{
+                height:80vh;
+               
+            
+            }
+            
+            
+            
+            .page4 .contain .women{
+                height:100vh;
+               
+            }
+            .page4 .contain .women img{
+                height:80vh;
+               
+            }
+            .page4 .contain .women .blure{
+                height:80vh;
+              
+            
+            }
+
+            .page4 .contain .info{
+                font-family:"Roboto", sans-serif ;
+                position: absolute;
+                height:20vh;
+                width:100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                bottom: 0;
+               
+            }
+            .page4 .contain .info h2{
+            
+                font-size: 25px;
+                margin-top:3vh ;
+                margin-bottom:3vh ;
+            }
+
+            .page6{
+
+                height:90vh;
+               
+            }
+            
+            .cardss{
+                height:40vh;
+                
+              
+            }
+            .cardd{
+                height:30vh;
+                width:30%;
+              
+            }
+           
+        
+            .cardd p{
+                font-family:"Roboto", sans-serif ;
+                font-size: 13px;
+            }
+            .location{
+                height:50vh;
+                width:95%;
+                margin-left: 2%;
+              
+            
+            }
+            .location .store{
+                height: 40vh;
+                width:50%;
+            
+            }
+            .location .store img{
+            
+                height: 40vh;
+                width:100%;
+            }
+           
+           .locat .heading{
+            margin-top: 3vh;
+           }
+            .locat h1{
+                font-family:"Roboto", sans-serif ;
+                font-size: 35px;
+            
+            }
+            
+            .locat button{
+                padding: 8px 20px;
+                font-family:"Roboto", sans-serif ;
+                background-color: rgba(0, 0, 0, 0.838);
+                color: white;
+                font-size: bold;
+                width: 120px;
+               
+            }
+            footer{
+                height:115vh;
+            }
+            .about{
+                height:115vh;
+             
+            }
+
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:426px) and (min-width:322px)
 {
     
     .move div{
@@ -1777,7 +2014,7 @@ overflow-x: hidden;
     
         .phone-slider{
 
-            height:60vh;
+            height:50vh;
             width:95%;
             background-color: azure;
            position: relative;
@@ -1788,7 +2025,7 @@ overflow-x: hidden;
         
         .phone-first ,.phone-second,.phone-third{
         
-            height:60vh;
+            height:50vh;
             width:100%;
             position: absolute;
            
@@ -1796,7 +2033,7 @@ overflow-x: hidden;
         }
         .phone-slide img{
         
-            height:60vh;
+            height:50vh;
             width: 100%;
             border: white;
         
@@ -1810,8 +2047,711 @@ overflow-x: hidden;
         }
         
            
+
+           
+       
+            
+            .headding .a{
+                font-size: 30px;
+            }
+            
+            .headding .b{
+             
+                font-size: 35px;
+             
+            }
+            
+            .cloths{
+            
+            height:80vh;
+            width:100%;
+            background-color:white;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            position: relative;
+           
+            
+            }
+            
+            .cloths .card{
+            
+                height:80vh;
+                width:70%;
+              
+                position: absolute;
+            
+            }
+            .c1{
+                left:10%;
+
+            }
+            .c2{
+                left:90%;
+            }
+            .c3{
+                left:160%;
+            }
+           
+                    .cloths .text{
+                        height:15vh;
+                    }
+                    
+                    .card h3{
+            
+                    
+                        font-size: 13px;
+                    }
+                    .paragraph{
+                        margin-top: 20px;
+            display: flex;
+            gap:4%;
+            
+                    }
+                    .paragraph .p1{
+            
+                        font-weight: bold;
+                        font-size: 20px;
+                    }
+                    .paragraph .p2{
+            
+                        text-decoration: line-through;
+                        
+                        font-weight:lighter;
+                        font-size: 20px;
+                    }
+            
+
+
+
+
+                    .page3{
+
+                        height:120vh;
+                        width:100%;
+                        background-color: white;
+                        display: flex;
+                        flex-direction: column;
+                      
+                    }
+                    
+                    .page3 .contain{
+                    
+                        height:120vh;
+                        width:100%;
+                        background-color:white;
+                      
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+                    .contain .text {
+                        height:60vh;
+                        width:90%;
+                        background-color: white;
+                        display: flex;
+                        flex-direction: column;
+                        gap:5vh;
+                    }
+                    .contain .heding{
+                        margin-top: 20px;
+                    }
+                    .contain .text .heding h1{
+                        
+                        font-family:"Roboto", sans-serif ;
+                     
+                        font-size: 25px;
+                        font-weight: 900;
+                    
+                    }
+                  
+                   
+                    
+                    .contain .text p{
+                        font-family:"Roboto", sans-serif ;
+                        font-size: 15px;
+                        font-weight: 500;
+                        letter-spacing: 1px;
+                        line-height: 20px;
+                    }
+                    .contain .text button{
+                    width:60%;
+                        padding: 10px;
+                      
+                        font-size: 15px;
+                        font-weight: bold;
+                    }
+                    
+                    .contain .image{
+                        height:60vh;
+                        width:100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                       
+                    }
+                    .contain .image img{
+                        width:100%;
+                        height:50vh;
+                    }
+                   
+                    
+
+                    .page4{
+                        height:200vh;
+                        width:100%;
+                       
+                    }
+                    .page4 .contain{
+                    
+                        height:200vh;
+                        width:100%;
+                        background-color:white;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                       
+                    
+                    }
+                    .page4 .contain .men{
+                        height:100vh;
+                        width:90%;
+                       
+                    }
+                    .page4 .contain .men img{
+                        height:80vh;
+                        width:100%;
+                    
+                    }
+                    .page4 .contain .men .blure{
+                        height:80vh;
+                        width:100%;
+                       
+                    
+                    }
+                  
+                    
+                    
+                    .page4 .contain .women{
+                        height:100vh;
+                        width:90%;
+                       
+                    }
+                    .page4 .contain .women img{
+                        height:80vh;
+                        width:100%;
+                    }
+                    .page4 .contain .women .blure{
+                        height:80vh;
+                        width:100%;
+                       
+                    
+                    }
+                  
+                  
+                
+.page5{
+
+    height:40vh;
+    width:100%;
+    background-color:white;
+    
+    }
+    .page5 video{
+    height: 40vh;
+    width: 100%;
+    }
+                    
+
+    .page6{
+
+        height:175vh;
+        width:100%;
+        background-color:white;
+    }
+    
+    .cardss{
+        height:100vh;
+        width:100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .cardd{
+        height:30vh;
+        width:100%;
+      
+    }
+   
+    .location{
+        margin-left:0px ;
+        height:100vh;
+        width:100%;
+        background-color:white;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    
+    }
+    .location .store{
+        height: 35vh;
+        width:90%;
+    
+    }
+    .location .store img{
+    
+        height: 35vh;
+        width:100%;
+    }
+    .locat{
+        width:90%;
+        height:40vh;
+        display: flex;
+        flex-direction: column;
+        gap:2vh;
+        padding-left: 5%;
+    }
+    .locat .heading{
+        margin-top: 5vh;
+       
+    }
+    .locat h1{
+        font-family:"Roboto", sans-serif ;
+        font-size: 35px;
+    
+    }
+    
+   
+   
+  
+    .locat button{
+        padding: 10px 20px;
+        font-family:"Roboto", sans-serif ;
+        background-color: rgba(0, 0, 0, 0.838);
+        color: white;
+        font-size: bold;
+        width: 40%;
+       
+    }
+
+    footer{
+        height:160vh;
+    }
+    .about{
+        height:160vh;
+     
+    }
+    footer .social{
+        display: flex;
+        margin: 0 auto;
+    }
+  
+
+}
+
+
+@media screen and (max-width:321px) and (min-width:0px)
+{
+
+
+    
+    .move div{
+    
+        width: 90%;
+        flex-shrink: 0;
+        background-color:black;
+        color: white;
+        font-size: 13px;
+        
+    }
+
+    .link {
+
+        display:none;
+     }
+     .link div{
+        display: none;
+     }
+    .menu{
+        display: flex;
+    }
+     .menu i{
+
+        margin-left:1.5vw ;
+        font-size: 20px;
+        transition: 1s ;
+       
+    
+    }
+   
+    .social{
+        display: none;
+    }
+    .search .i1{
+        display: none;
+    }
+    .search .i2{
+        display: none;
+     }
+
+        .page1{
+            display:none;
+        }
+
+        .phone-page1{
+            height:45vh;
+            width:100%;
+            background-color: aqua;
+       
+
+           
+background-color:white;
+display: flex;
+justify-content: center;
+align-items: center;
+overflow-x: hidden;
+        }
+    
+        .phone-slider{
+
+            height:45vh;
+            width:95%;
+            background-color: azure;
+           position: relative;
+            overflow: hidden;
+            border: white;
+        
+        }
+        
+        .phone-first ,.phone-second,.phone-third{
+        
+            height:45vh;
+            width:100%;
+            position: absolute;
+           
+        
+        }
+        .phone-slide img{
+        
+            height:45vh;
+            width: 100%;
+            border: white;
+        
+        
+        }
+        
+        .phone-page1 .phone-prv,.phone-next{
+            height:10px;
+            margin:10px;
+            font-size: 15px;
+        }
+        
            
 
+           
+       
+            
+            .headding .a{
+                font-size: 30px;
+            }
+            
+            .headding .b{
+             
+                font-size: 35px;
+             
+            }
+            
+            .cloths{
+            
+            height:80vh;
+            width:100%;
+            background-color:white;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            position: relative;
+           
+            
+            }
+            
+            .cloths .card{
+            
+                height:80vh;
+                width:70%;
+              
+                position: absolute;
+            
+            }
+            .c1{
+                left:10%;
+
+            }
+            .c2{
+                left:90%;
+            }
+            .c3{
+                left:160%;
+            }
+           
+                    .cloths .text{
+                        height:15vh;
+                    }
+                    
+                    .card h3{
+            
+                    
+                        font-size: 13px;
+                    }
+                    .paragraph{
+                        margin-top: 20px;
+            display: flex;
+            gap:4%;
+            
+                    }
+                    .paragraph .p1{
+            
+                        font-weight: bold;
+                        font-size: 20px;
+                    }
+                    .paragraph .p2{
+            
+                        text-decoration: line-through;
+                        
+                        font-weight:lighter;
+                        font-size: 20px;
+                    }
+            
+
+
+
+
+                    .page3{
+
+                        height:120vh;
+                        width:100%;
+                        background-color: white;
+                        display: flex;
+                        flex-direction: column;
+                      
+                    }
+                    
+                    .page3 .contain{
+                    
+                        height:120vh;
+                        width:100%;
+                        background-color:white;
+                      
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+                    .contain .text {
+                        height:60vh;
+                        width:90%;
+                        background-color: white;
+                        display: flex;
+                        flex-direction: column;
+                        gap:5vh;
+                    }
+                    .contain .heding{
+                        margin-top: 20px;
+                    }
+                    .contain .text .heding h1{
+                        
+                        font-family:"Roboto", sans-serif ;
+                     
+                        font-size: 25px;
+                        font-weight: 900;
+                    
+                    }
+                  
+                   
+                    
+                    .contain .text p{
+                        font-family:"Roboto", sans-serif ;
+                        font-size: 15px;
+                        font-weight: 500;
+                        letter-spacing: 1px;
+                        line-height: 20px;
+                    }
+                    .contain .text button{
+                    width:70%;
+                        padding: 10px;
+                      
+                        font-size: 15px;
+                        font-weight: bold;
+                    }
+                    
+                    .contain .image{
+                        height:60vh;
+                        width:100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                       
+                    }
+                    .contain .image img{
+                        width:100%;
+                        height:50vh;
+                    }
+                   
+                    
+
+                    .page4{
+                        height:200vh;
+                        width:100%;
+                       
+                    }
+                    .page4 .contain{
+                    
+                        height:200vh;
+                        width:100%;
+                        background-color:white;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                       
+                    
+                    }
+                    .page4 .contain .men{
+                        height:100vh;
+                        width:90%;
+                       
+                    }
+                    .page4 .contain .men img{
+                        height:80vh;
+                        width:100%;
+                    
+                    }
+                    .page4 .contain .men .blure{
+                        height:80vh;
+                        width:100%;
+                       
+                    
+                    }
+                  
+                    
+                    
+                    .page4 .contain .women{
+                        height:100vh;
+                        width:90%;
+                       
+                    }
+                    .page4 .contain .women img{
+                        height:80vh;
+                        width:100%;
+                    }
+                    .page4 .contain .women .blure{
+                        height:80vh;
+                        width:100%;
+                       
+                    
+                    }
+                  
+                    .page4 .contain .info h2{
+                    
+                        font-size: 20px;
+                        margin-top:3vh ;
+                        margin-bottom:3vh ;
+                    }
+                  
+                  
+                
+.page5{
+
+    height:40vh;
+    width:100%;
+    background-color:white;
+    
+    }
+    .page5 video{
+    height: 40vh;
+    width: 100%;
+    }
+                    
+
+    .page6{
+
+        height:175vh;
+        width:100%;
+        background-color:white;
+    }
+    
+    .cardss{
+        height:100vh;
+        width:100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .cardd{
+        height:30vh;
+        width:100%;
+      
+    }
+   
+    .location{
+        margin-left:0px ;
+        height:100vh;
+        width:100%;
+        background-color:white;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    
+    }
+    .location .store{
+        height: 35vh;
+        width:90%;
+    
+    }
+    .location .store img{
+    
+        height: 35vh;
+        width:100%;
+    }
+    .locat{
+        width:90%;
+        height:40vh;
+        display: flex;
+        flex-direction: column;
+        gap:2vh;
+        padding-left: 5%;
+    }
+    .locat .heading{
+        margin-top: 5vh;
+       
+    }
+    .locat h1{
+        font-family:"Roboto", sans-serif ;
+        font-size: 35px;
+    
+    }
+    
+   
+   
+  
+    .locat button{
+        padding: 10px 20px;
+        font-family:"Roboto", sans-serif ;
+        background-color: rgba(0, 0, 0, 0.838);
+        color: white;
+        font-size: bold;
+        width: 40%;
+       
+    }
+
+    footer{
+        height:170vh;
+    }
+    .about{
+        height:170vh;
+     
+    }
+    footer .social{
+        display: flex;
+        margin: 0 auto;
+    }
 
 
 }
