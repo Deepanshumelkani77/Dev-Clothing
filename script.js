@@ -322,8 +322,7 @@ let tl=gsap.timeline({
         scroller:"body",
         start:"top 50%",
         scrub:2,
-        end:"top 0",
-        markers:true
+        end:"top 0"
     }
 })
 
